@@ -1,0 +1,143 @@
+
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto' , sans-serif;
+  font-size: 16px;
+  color: black; 
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
+  background-color: #D9DAD4;
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+.top-navigation {
+  background-color: #fff;
+  position: fixed;
+  width:100%;
+  z-index: 9999;
+  border-bottom: 1px solid black;
+
+
+
+}
+
+.top-navigation .links {
+  font-family: 
+  color: #838994;
+  font-size: 16px;
+   -webkit-font-smoothing: antialiased;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #D76D2A;
+  height: 30px;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: 5px;
+
+}
+
+.top-navigation .links .active {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+.introduction {
+  width: 100%;
+  background-image: url('../images/trickle.jpeg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  overflow: auto;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+   box-shadow: 0 8px 6px -6px black;
+ }
+
+.introduction .content {
+  padding-top: 100px;
+}
+
+ .introduction h1, h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+.introduction h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 3.125rem;
+  padding-bottom:
+}
+
+.introdction h3 {
+  /* Layout Declarations */
+  padding-top: 
+
+  /* Typography Declarations */
+  
+}
+
+.big-button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  width: 12rem;
+  background-color: #f15a29;
+  font-size: 1.125rem;
+  color: white;
+  display: block;
+  margin:0 auto;
+  margin-top: 
+  margin-bottom:;
+}
+
+.big-button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
