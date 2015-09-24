@@ -6,7 +6,7 @@ html {
   color: black; 
   letter-spacing: 0.03em;
   -webkit-font-smoothing: antialiased;
-  background-color: #D9DAD4;
+  background-color: #D76D2A;
   
 }
 
@@ -74,7 +74,7 @@ body {
   padding-top: 100px;
 }
 
- .introduction h1, h3 {
+.introduction  h1, h3 {
   color: white;
   text-align: center;
   font-weight: 300;
@@ -91,8 +91,7 @@ body {
   /* Layout Declarations */
   padding-top: 
 
-  /* Typography Declarations */
-  
+/* Typography Declarations */
 }
 
 .big-button {
@@ -116,6 +115,32 @@ body {
     border-color: #cf3d0e;
     cursor: pointer;
 }
+
+.middle {
+  background-color: #C6E2FF;
+}
+.middle h3 {
+margin-top: 0;
+}
+
+.middle hr {
+  width: 70%;
+}
+
+.middle h1 {
+  text-align: center;
+}
+
+.projects h1 {
+  text-align: center;
+  color: white;
+}
+
+.projects .examples > li {
+  display: inline-block;
+  
+}
+
 
 
 
