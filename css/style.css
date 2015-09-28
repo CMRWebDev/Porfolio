@@ -5,7 +5,7 @@ html {
   color: black; 
   letter-spacing: 0.03em;
   -webkit-font-smoothing: antialiased;
-  background-color: #D76D2A;
+  
   padding: 0;
   
 }
@@ -20,12 +20,13 @@ body {
   background-image: url('../images/dark_fish_skin.png');
   font-family: 'Titillium' , sans-serif;
 );
-}
-
-
-
 
 }
+
+a {
+  text-decoration: none;
+}
+
 .top-navigation {
   background-color: #fff;
   position: fixed;
@@ -39,7 +40,7 @@ body {
   font-family: 
   color: #838994;
   font-size: 16px;
-   -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -51,7 +52,7 @@ body {
 .top-navigation .links li {
   display: inline-block;
   margin-left: 25px;
-  padding-top: 5px;
+  padding-top: 20px;
 
 }
 
@@ -81,24 +82,26 @@ body {
   padding-top: 100px;
 }
 
-.introduction  h1, h3 {
-  color: white;
-  text-align: center;
-  font-weight: 300;
-}
+
+
 
 .introduction h1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 3.125rem;
-  padding-bottom:
+  text-align: center;
+  font-size: 80px;
+  text-shadow: 0 0 6px #000;
+  color: rgb(234, 234, 234);
 }
 
-.introdction h3 {
+.introduction h3 {
   /* Layout Declarations */
-  padding-top: 
-
-/* Typography Declarations */
+  text-align: center;
+  /* Typography Declarations */
+  text-shadow: 0 0 6px #000;
+  font-size: 30px;
+  color: rgb(234, 234, 234);
 }
 
 .big-button {
@@ -128,19 +131,43 @@ body {
   
 }
 .middle h3 {
-margin-top: 0;
+  margin-top: 0;
+  padding-bottom: 3rem;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+
 
 }
 
 .middle hr {
-  width: 70%;
+  width: 85%;
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px;
+}
+
+.middle hr:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
 }
 
 
 .middle h1 {
   text-align: center;
   font-family: inherit;
-  
+  font-weight: 300;
+  color: white;
+  margin-bottom: 100px;
 }
 
 .projects {
@@ -154,17 +181,35 @@ margin-top: 0;
 
 }
 
-.projects h1 {
+
+.projects .content > h1 {
   text-align: center;
-  color: white;
-  font-family: inherit;
+  display: inline;
+  position: relative;
+  font: 70px 'Titillium', Sans-Serif;
+  letter-spacing: -5px;
+  color: black;
+
 }
+
+.projects .content > h1:after {
+  content: "PROJECTS";
+  position: absolute; left: 10px; top: 5px;
+  color: white;
+}
+
 
 .projects .examples > li {
   display: inline-block;
   width: 50%;
   float: left;
   padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+.projects > img {
+  border: 30px solid #021a40;
 }
 
 /* FOOTER ======================================================================= */
@@ -172,21 +217,43 @@ margin-top: 0;
   background-color: rgb(81, 81, 81);
   text-align: center;
   height: 300px;
+  padding-top: 100px;
+  padding-left: 0px;
 
+
+}
+
+.icons {
+  padding: 0;
+  margin: 0;
 }
 
 .social .social-icons > li {
   display: inline-block;
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+
 
 }
 
-.projects > img {
-  -webkit-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.37);
-  -moz-box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.37);
-  box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.37);
 }
-
-
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
 
 
 
